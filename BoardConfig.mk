@@ -175,11 +175,18 @@ SHRP_FONP_3 := /sys/class/leds/torch-light2/brightness
 SHRP_FLASH_MAX_BRIGHTNESS := 4
 
 # SHRP DEFAULT ADDONS
+SHRP_EXTERNAL_ADDON_PATH := "device/redmi/begonia/addon"
 INC_IN_REC_ADDON_1 := true
 INC_IN_REC_ADDON_2 := true
 INC_IN_REC_ADDON_3 := true
 INC_IN_REC_ADDON_4 := true
 INC_IN_REC_MAGISK := true
+
+SHRP_EXTERNAL_ADDON_1_NAME := "vbmeta patch"
+SHRP_EXTERNAL_ADDON_1_INFO := "Patch vbmeta for close avb2.0"
+SHRP_EXTERNAL_ADDON_1_BTN_TEXT := "Flash"
+SHRP_EXTERNAL_ADDON_1_SUCCESSFUL_TEXT := "Flashed Successfully"
+SHRP_INC_IN_REC_EXTERNAL_ADDON_1 := true
 
 # SHRP_SKIP_DEFAULT_ADDON_1 := true
 # SHRP_SKIP_DEFAULT_ADDON_2 := true
